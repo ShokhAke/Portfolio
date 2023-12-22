@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <!-- BoxIcon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <!-- Css link -->
     <link rel="stylesheet" href="css/component.css">
     <link rel="stylesheet" href="css/general.css">
@@ -35,8 +37,9 @@
     </div>
 
     <!--About-->
-    <section class="about container">
-        <!--Heading title-->
+    <section class="about">
+        <div class="container">
+            <!--Heading title-->
         <div class="heading-title">
             <h2>ABOUT ME</h2>
             <span></span>
@@ -49,7 +52,7 @@
                 <p>I'm a Frontend Web Developer building the Front-end of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the Projects section.</p>
                 <p>I also like sharing content related to the stuff that I have learned over the years in Web Development so it can help other people of the Dev Community. Feel free to Connect or Follow me on my Linkedin where I post useful content related to Web Development and Programming</p>
                 <p>I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.</p>
-                <a href="#" class="btn">CONTACT</a>
+                <a href="#" class="btn about-btn">CONTACT</a>
             </div>
             <div class="about-skills">
                 <h3>My Skills</h3>
@@ -69,6 +72,122 @@
                 </div>
             </div>
         </div>
+        </div>
     </section>
+    <!--Projects-->
+    <section class="projects container">
+        <!--Heading title-->
+        <div class="heading-title">
+            <h2>PROJECTS</h2>
+            <span></span>
+            <p>
+                Here you will find some of the personal and clients projects that I created with each project containing its own case study
+            </p>
+        </div>
+        <div class="project-content">
+            <div class="project-img">
+                <img src="img/Projects/1.jpeg" alt="">
+            </div>
+            <div class="project-desc">
+                <h3>Dopefolio</h3>
+                <p>Dopefolio is a successful Open-Source project that I created which have been featured on some of the biggest tech sites like CSS-Tricks, Hostinger, etc & used by thousands of developers globally
+                </p>
+                <a href="#" class="btn about-btn">PROJECT</a>
+            </div>
+        </div>
+
+        <div class="project-content">
+            <div class="project-img">
+                <img src="img/Projects/2.jpeg" alt="">
+            </div>
+            <div class="project-desc">
+                <h3>Wilsonport</h3>
+                <p>Wilsonport is a multiservice logistics and transport company and I created their website from scratch using the frontend tools I know.
+                </p>
+                <a href="#" class="btn about-btn">PROJECT</a>
+            </div>
+        </div>
+
+        <div class="project-content">
+            <div class="project-img">
+                <img src="img/Projects/3.jpeg" alt="">
+            </div>
+            <div class="project-desc">
+                <h3>Boreal Coffee Clone</h3>
+                <p>I re-created the frontend of Boreal Coffee's official web app because I got attracted to their beautiful UI. It was a great experience for me to build the entire frontend.
+                </p>
+                <a href="#" class="btn about-btn">PROJECT</a>
+            </div>
+        </div>
+
+        <div class="project-content">
+            <div class="project-img">
+                <img src="img/Projects/4.jpeg" alt="">
+            </div>
+            <div class="project-desc">
+                <h3>Crown Template</h3>
+                <p>Crown is a web template that I created targeting the restaurant and food industry which anyone can use to present their business online.
+                </p>
+                <a href="#" class="btn about-btn">PROJECT</a>
+            </div>
+        </div>
+    </section>
+
+    <!--Contact-->
+    <section class="contact">
+        <div class="container">
+     <!--Heading title-->
+        <div class="heading-title">
+            <h2>CONTACT</h2>
+            <span></span>
+            <p>Feel free to Contact me by submitting the form below and I will get back to you as soon as possible
+            </p>
+        </div>
+        <!-- Form -->
+            <form>
+                <div class="contact-name">
+                    <span>Name</span>
+                    <input type="text" placeholder="Enter Your Name">
+                </div>
+                <div class="contact-mail">
+                    <span>Email</span>
+                    <input type="text" placeholder="Enter Your Email">
+                </div>
+                <div class="contact-message">
+                    <span>Message</span>
+                    <textarea placeholder="Enter Your Message"></textarea>
+                </div>
+                <div class="btn-contact">
+                    <a href="#" class="btn btn-primary">SUBMIT</a>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-desc">
+                    <h4>ShokhAke</h4>
+                    <p>A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product</p>
+                </div>
+                <div class="footer-social">
+                    <h4>SOCIAL</h4>
+                    <div class="footer-icons">
+                        <i class='bx bxl-linkedin' style='color:#fff'></i>
+                        <i class='bx bxl-instagram' style='color:#fff'></i>
+                        <i class='bx bxl-linkedin' style='color:#fff'></i>
+                        <i class='bx bxl-instagram' style='color:#fff'></i>
+                        <i class='bx bxl-linkedin' style='color:#fff'></i>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="footer-end">
+                <p>&copy; Copyright 2023. Made by Ram Maheshwari</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

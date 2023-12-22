@@ -33,6 +33,7 @@ a {
     transition: transform .3s;
     background: #7843e9;
     color: #fff;
+    display: inline-block;
 }
 
 .btn.btn-primary {
