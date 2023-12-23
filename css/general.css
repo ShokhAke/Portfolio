@@ -183,8 +183,31 @@ footer {
     width: 480px;
 }
 
-.footer-desc h4 {
+.footer-desc h4,
+.footer-social h4 {
     font-size: 22px;
     font-weight: 700;
     color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer-desc p {
+    font-size: 15px;
+    color: #eee;
+}
+
+.footer-icons i {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.footer-end {
+    padding: 40px 0;
+    border-top: 1px solid #444;
+    text-align: center;
+}
+
+.footer-end p {
+    font-size: 12px;
+    color: #eee;
 }
